@@ -12,7 +12,7 @@ const app = express();
 const corsOptions = {
   origin: [
     "http://localhost:4600",
-    "https://instashot-clone2-8ogq.vercel.app/",
+    "https://instashot-clone2-8ogq.vercel.app",
   ],
   optionsSuccessStatus: 200,
   methods: ["GET", "POST", "PATCH", "DELETE"],
